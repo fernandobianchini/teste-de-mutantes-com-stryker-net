@@ -1,0 +1,6 @@
+{
+    "stryker-config": {
+        "solution": "../Bank.sln",
+        "project": "Bank.Account.csproj"
+    }
+}
