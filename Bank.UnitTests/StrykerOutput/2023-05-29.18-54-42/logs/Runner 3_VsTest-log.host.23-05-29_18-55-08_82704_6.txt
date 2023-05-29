@@ -1,0 +1,227 @@
+TpTrace Verbose: 0 : 22780, 1, 2023/05/29, 18:55:09.653, 5807845087480, testhost.dll, Version: 16.11.0
+TpTrace Information: 0 : 22780, 1, 2023/05/29, 18:55:09.660, 5807845145228, testhost.dll, DefaultEngineInvoker.Invoke: Testhost process started with args :[--port, 57398],[--endpoint, 127.0.0.1:057398],[--role, client],[--parentprocessid, 15592],[--diag, C:\Projetos\Bank\Bank.UnitTests\StrykerOutput\2023-05-29.18-54-42\logs\Runner 3_VsTest-log.host.23-05-29_18-55-08_82704_6.txt],[--tracelevel, 4],[--telemetryoptedin, false]
+TpTrace Information: 0 : 22780, 1, 2023/05/29, 18:55:09.665, 5807845197002, testhost.dll, Setting up debug trace listener.
+TpTrace Verbose: 0 : 22780, 1, 2023/05/29, 18:55:09.666, 5807845199623, testhost.dll, TestPlatformTraceListener.Setup: Replacing listener 0 with TestHostTraceListener.
+TpTrace Verbose: 0 : 22780, 1, 2023/05/29, 18:55:09.666, 5807845200055, testhost.dll, TestPlatformTraceListener.Setup: Added test platform trace listener.
+TpTrace Information: 0 : 22780, 1, 2023/05/29, 18:55:09.667, 5807845211427, testhost.dll, DefaultEngineInvoker.SetParentProcessExitCallback: Monitoring parent process with id: '15592'
+TpTrace Information: 0 : 22780, 1, 2023/05/29, 18:55:09.674, 5807845285076, testhost.dll, DefaultEngineInvoker.GetConnectionInfo: Initialize communication on endpoint address: '127.0.0.1:057398'
+TpTrace Information: 0 : 22780, 1, 2023/05/29, 18:55:09.684, 5807845387767, testhost.dll, SocketClient.Start: connecting to server endpoint: 127.0.0.1:057398
+TpTrace Information: 0 : 22780, 1, 2023/05/29, 18:55:09.692, 5807845458712, testhost.dll, DefaultEngineInvoker.Invoke: Start Request Processing.
+TpTrace Information: 0 : 22780, 9, 2023/05/29, 18:55:09.693, 5807845470071, testhost.dll, SocketClient.OnServerConnected: connected to server endpoint: 127.0.0.1:057398
+TpTrace Verbose: 0 : 22780, 9, 2023/05/29, 18:55:09.694, 5807845488075, testhost.dll, Connected to server, and starting MessageLoopAsync
+TpTrace Information: 0 : 22780, 10, 2023/05/29, 18:55:09.695, 5807845488523, testhost.dll, DefaultEngineInvoker.StartProcessingAsync: Connected to vstest.console, Starting process requests.
+TpTrace Verbose: 0 : 22780, 9, 2023/05/29, 18:55:09.697, 5807845517667, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:57398 localEndPoint: [::ffff:127.0.0.1]:57401
+TpTrace Verbose: 0 : 22780, 9, 2023/05/29, 18:55:09.698, 5807845521494, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:57398 localEndPoint: [::ffff:127.0.0.1]:57401
+TpTrace Information: 0 : 22780, 9, 2023/05/29, 18:55:09.822, 5807846766578, testhost.dll, TestRequestHandler.OnMessageReceived: received message: (ProtocolVersion) -> 7
+TpTrace Verbose: 0 : 22780, 9, 2023/05/29, 18:55:09.850, 5807847048213, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"Logging TestHost Diagnostics in file: C:\\Projetos\\Bank\\Bank.UnitTests\\StrykerOutput\\2023-05-29.18-54-42\\logs\\Runner 3_VsTest-log.host.23-05-29_18-55-08_82704_6.txt"}}
+TpTrace Verbose: 0 : 22780, 9, 2023/05/29, 18:55:09.851, 5807847050698, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:57398 localEndPoint: [::ffff:127.0.0.1]:57401
+TpTrace Verbose: 0 : 22780, 9, 2023/05/29, 18:55:09.851, 5807847051301, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:57398 localEndPoint: [::ffff:127.0.0.1]:57401
+TpTrace Information: 0 : 22780, 9, 2023/05/29, 18:55:09.855, 5807847097685, testhost.dll, TestRequestHandler.OnMessageReceived: received message: (TestExecution.Initialize) -> [
+  "C:\\Projetos\\Bank\\Bank.UnitTests\\bin\\Debug\\net6.0\\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll"
+]
+TpTrace Verbose: 0 : 22780, 9, 2023/05/29, 18:55:09.862, 5807847167951, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:57398 localEndPoint: [::ffff:127.0.0.1]:57401
+TpTrace Verbose: 0 : 22780, 9, 2023/05/29, 18:55:09.863, 5807847169624, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:57398 localEndPoint: [::ffff:127.0.0.1]:57401
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:09.863, 5807847171854, testhost.dll, TestRequestHandler.OnMessageReceived: Running job 'TestExecution.Initialize'.
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.865, 5807847191392, testhost.dll, TestExecutorService: Loading the extensions
+TpTrace Information: 0 : 22780, 9, 2023/05/29, 18:55:09.865, 5807847195877, testhost.dll, TestRequestHandler.OnMessageReceived: received message: (TestExecution.StartWithTests) -> {
+  "Tests": [
+    {
+      "Id": "7c80fa14-4b5e-688b-30c4-22317d77de66",
+      "FullyQualifiedName": "Bank.UnitTests.BankAccountTest.Debit_WithValidAmount_UpdatesBalance",
+      "DisplayName": "Debit_WithValidAmount_UpdatesBalance",
+      "ExecutorUri": "executor://MSTestAdapter/v2",
+      "Source": "C:\\Projetos\\Bank\\Bank.UnitTests\\bin\\Debug\\net6.0\\Bank.UnitTests.dll",
+      "CodeFilePath": "C:\\Projetos\\Bank\\Bank.UnitTests\\BankAccountTest.cs",
+      "LineNumber": 11,
+      "Properties": [
+        {
+          "Key": {
+            "Id": "TestCase.ManagedType",
+            "Label": "ManagedType",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Bank.UnitTests.BankAccountTest"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.ManagedMethod",
+            "Label": "ManagedMethod",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Debit_WithValidAmount_UpdatesBalance"
+        },
+        {
+          "Key": {
+            "Id": "MSTestDiscoverer.TestClassName",
+            "Label": "ClassName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Bank.UnitTests.BankAccountTest"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Hierarchy",
+            "Label": "Hierarchy",
+            "Category": "",
+            "Description": "",
+            "Attributes": 2,
+            "ValueType": "System.String[]"
+          },
+          "Value": [
+            "Bank.UnitTests",
+            "BankAccountTest"
+          ]
+        },
+        {
+          "Key": {
+            "Id": "TestObject.Traits",
+            "Label": "Traits",
+            "Category": "",
+            "Description": "",
+            "Attributes": 5,
+            "ValueType": "System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"
+          },
+          "Value": []
+        }
+      ]
+    }
+  ],
+  "RunSettings": "<RunSettings>\r\n  <RunConfiguration>\r\n    <CollectSourceInformation>false</CollectSourceInformation>\r\n    <MaxCpuCount>1</MaxCpuCount>\r\n    <TestSessionTimeout>6680</TestSessionTimeout>\r\n    <DesignMode>false</DesignMode>\r\n    <TargetFrameworkVersion>.NETCoreApp,Version=v6.0</TargetFrameworkVersion>\r\n  </RunConfiguration>\r\n  <InProcDataCollectionRunSettings>\r\n    <InProcDataCollectors>\r\n      <InProcDataCollector friendlyName=\"StrykerCoverage\" uri=\"https://stryker-mutator.io/\" codebase=\"C:\\Users\\1511 MXTI\\.nuget\\packages\\dotnet-stryker\\3.9.0\\tools\\net6.0\\any\\Stryker.DataCollector.dll\" assemblyQualifiedName=\"Stryker.DataCollector.CoverageCollector, Stryker.DataCollector, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\">\r\n        <Configuration>\r\n          <Parameters>\r\n            <Mutant id=\"5\" tests=\"7c80fa14-4b5e-688b-30c4-22317d77de66\" />\r\n            <MutantControl name=\"Stryker0Xrvs6ez4CmThoK.MutantControl\" />\r\n          </Parameters>\r\n        </Configuration>\r\n      </InProcDataCollector>\r\n    </InProcDataCollectors>\r\n  </InProcDataCollectionRunSettings>\r\n  <LoggerRunSettings>\r\n    <Loggers>\r\n      <Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Users\\1511 MXTI\\AppData\\Local\\Temp\\bixzjozn.d4j\\.vstest\\tools\\net462\\vstest.console.exe\" enabled=\"True\" />\r\n    </Loggers>\r\n  </LoggerRunSettings>\r\n</RunSettings>",
+  "TestExecutionContext": {
+    "FrequencyOfRunStatsChangeEvent": 10,
+    "RunStatsChangeEventTimeout": "00:00:01.5000000",
+    "InIsolation": false,
+    "KeepAlive": false,
+    "AreTestCaseLevelEventsRequired": false,
+    "IsDebug": false,
+    "TestCaseFilter": null,
+    "FilterOptions": null
+  },
+  "Package": null
+}
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.866, 5807847208245, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestExecutorPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestExecutor
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.868, 5807847219700, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.868, 5807847223511, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.868, 5807847223975, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:09.870, 5807847239673, testhost.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.871, 5807847254543, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.871, 5807847255970, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.871, 5807847256378, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.871, 5807847256662, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.871, 5807847257456, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:09.872, 5807847265326, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:09.877, 5807847316991, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter: Resolving assembly.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:09.877, 5807847318140, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter: Searching in: 'C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0'.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:09.879, 5807847329309, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter: Loading assembly 'C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll'.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:09.879, 5807847335091, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter, from path: C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.898, 5807847528135, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.899, 5807847534249, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.899, 5807847535124, testhost.dll, TestPluginCache: Executors are 'executor://MSTestAdapter/v2'.
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.899, 5807847535713, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.899, 5807847536244, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.899, 5807847536758, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.902, 5807847563450, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestExecutorPluginInformation2 TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestExecutor2
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.902, 5807847566296, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.902, 5807847566968, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.902, 5807847567263, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:09.903, 5807847569747, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.903, 5807847570265, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.903, 5807847570787, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.903, 5807847571102, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.903, 5807847571503, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.903, 5807847571861, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:09.903, 5807847572278, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.903, 5807847574192, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.903, 5807847574589, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.903, 5807847575018, testhost.dll, TestPluginCache: Executors are 'executor://MSTestAdapter/v2'.
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.903, 5807847575650, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.903, 5807847575965, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.903, 5807847576656, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:09.909, 5807847633455, testhost.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.MSTestExecutor
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.911, 5807847654382, testhost.dll, TestExecutorExtensionManager: Loading executor Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.MSTestExecutor
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.911, 5807847655430, testhost.dll, TestExecutorService: Loaded the executors
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.912, 5807847664268, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestSettingsProviderPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ISettingsProvider
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.912, 5807847665565, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.912, 5807847665955, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.912, 5807847666346, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:09.912, 5807847667748, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.912, 5807847668216, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.913, 5807847668532, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.913, 5807847668860, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.913, 5807847669128, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.913, 5807847669425, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:09.913, 5807847669909, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.913, 5807847671989, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.913, 5807847672385, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.913, 5807847672675, testhost.dll, TestPluginCache: Executors are 'executor://MSTestAdapter/v2'.
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.913, 5807847673023, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.913, 5807847673443, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.913, 5807847673735, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.914, 5807847682717, testhost.dll, TestExecutorService: Loaded the settings providers
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:09.914, 5807847683612, testhost.dll, TestExecutorService: Loaded the extensions
+TpTrace Verbose: 0 : 22780, 9, 2023/05/29, 18:55:09.943, 5807847977285, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:57398 localEndPoint: [::ffff:127.0.0.1]:57401
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:09.944, 5807847982416, testhost.dll, TestRequestHandler.OnMessageReceived: Running job 'TestExecution.StartWithTests'.
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.968, 5807848220445, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.968, 5807848221737, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:09.968, 5807848222498, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.144, 5807849987364, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface: Resolving assembly.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.145, 5807849988839, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface: Searching in: 'C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0'.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.145, 5807849992037, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface: Loading assembly 'C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll'.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.145, 5807849995880, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface, from path: C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.145, 5807849998186, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices: Resolving assembly.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.146, 5807849998880, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices: Searching in: 'C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0'.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.146, 5807850001429, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices: Loading assembly 'C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll'.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.148, 5807850024846, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices, from path: C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:10.173, 5807850272973, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Running tests for executor://MSTestAdapter/v2
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.174, 5807850281094, testhost.dll, MSTest - MSTestExecutor.RunTests: Running tests from testcases.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.176, 5807850304906, testhost.dll, MSTest - CollectSourceInformation value Found : False 
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.181, 5807850357310, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources: Resolving assembly.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.181, 5807850358217, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources: Searching in: 'C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0'.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.182, 5807850359347, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources: Assembly path does not exist: 'C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll', returning.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.182, 5807850360039, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources: Assembly path does not exist: 'C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.exe', returning.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.182, 5807850360345, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources: Failed to load assembly.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.182, 5807850362762, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources: Resolving assembly.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.182, 5807850363386, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources: Resolved from cache.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.192, 5807850462794, testhost.dll, MSTest - Created unit-test runner C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\Bank.UnitTests.dll
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:10.200, 5807850539591, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: Bank.UnitTests.BankAccountTest.Debit_WithValidAmount_UpdatesBalance.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.202, 5807850566482, testhost.dll, MSTest - Executing test Debit_WithValidAmount_UpdatesBalance
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.213, 5807850671730, testhost.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.AdapterUtilities: Resolving assembly.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.213, 5807850673727, testhost.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.AdapterUtilities: Searching in: 'C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0'.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.213, 5807850677044, testhost.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.AdapterUtilities: Loading assembly 'C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\Microsoft.TestPlatform.AdapterUtilities.dll'.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.214, 5807850681591, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.AdapterUtilities, from path: C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\Microsoft.TestPlatform.AdapterUtilities.dll
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.234, 5807850881937, testhost.dll, MSTest - Executed test Debit_WithValidAmount_UpdatesBalance
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:10.238, 5807850922046, testhost.dll, TestExecutionRecorder.RecordEnd: test: Bank.UnitTests.BankAccountTest.Debit_WithValidAmount_UpdatesBalance execution completed.
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:10.240, 5807850940405, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: Bank.UnitTests.BankAccountTest.Debit_WithValidAmount_UpdatesBalance.
+TpTrace Warning: 0 : 22780, 4, 2023/05/29, 18:55:10.241, 5807850952171, testhost.dll, No DataCollection Data set for the test case 7c80fa14-4b5e-688b-30c4-22317d77de66
+TpTrace Warning: 0 : 22780, 4, 2023/05/29, 18:55:10.244, 5807850979040, testhost.dll, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 22780, 4, 2023/05/29, 18:55:10.244, 5807850979999, testhost.dll, TestRunCache: No test found corresponding to testResult 'Debit_WithValidAmount_UpdatesBalance' in inProgress list.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.244, 5807850981536, testhost.dll, MSTest - Executing cleanup methods.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.245, 5807850992951, testhost.dll, MSTest - Executed cleanup methods.
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.245, 5807850993433, testhost.dll, MSTest - Executed tests belonging to source C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\Bank.UnitTests.dll
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.245, 5807850996008, testhost.dll, Deleting deployment directory C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\TestResults\Deploy_Fernando 2023-05-29 18_55_10
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.247, 5807851013432, testhost.dll, Deleted deployment directory C:\Projetos\Bank\Bank.UnitTests\bin\Debug\net6.0\TestResults\Deploy_Fernando 2023-05-29 18_55_10
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:10.247, 5807851018207, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Completed running tests for executor://MSTestAdapter/v2
+TpTrace Information: 0 : 22780, 4, 2023/05/29, 18:55:10.250, 5807851047454, testhost.dll, Sending test run complete
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:10.282, 5807851367980, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestExecution.Completed","Payload":{"TestRunCompleteArgs":{"TestRunStatistics":{"ExecutedTests":1,"Stats":{"Passed":1}},"IsCanceled":false,"IsAborted":false,"Error":null,"AttachmentSets":[],"ElapsedTimeInRunningTests":"00:00:00.0786213","Metrics":{}},"LastRunTests":{"NewTestResults":[{"TestCase":{"Id":"7c80fa14-4b5e-688b-30c4-22317d77de66","FullyQualifiedName":"Bank.UnitTests.BankAccountTest.Debit_WithValidAmount_UpdatesBalance","DisplayName":"Debit_WithValidAmount_UpdatesBalance","ExecutorUri":"executor://MSTestAdapter/v2","Source":"C:\\Projetos\\Bank\\Bank.UnitTests\\bin\\Debug\\net6.0\\Bank.UnitTests.dll","CodeFilePath":"C:\\Projetos\\Bank\\Bank.UnitTests\\BankAccountTest.cs","LineNumber":11,"Properties":[{"Key":{"Id":"TestCase.ManagedType","Label":"ManagedType","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Bank.UnitTests.BankAccountTest"},{"Key":{"Id":"TestCase.ManagedMethod","Label":"ManagedMethod","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Debit_WithValidAmount_UpdatesBalance"},{"Key":{"Id":"MSTestDiscoverer.TestClassName","Label":"ClassName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Bank.UnitTests.BankAccountTest"},{"Key":{"Id":"TestCase.Hierarchy","Label":"Hierarchy","Category":"","Description":"","Attributes":2,"ValueType":"System.String[]"},"Value":["Bank.UnitTests","BankAccountTest"]},{"Key":{"Id":"TestObject.Traits","Label":"Traits","Category":"","Description":"","Attributes":5,"ValueType":"System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"},"Value":[]}]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":"Debit_WithValidAmount_UpdatesBalance","Messages":[],"ComputerName":null,"Duration":"00:00:00.0052637","StartTime":"2023-05-29T18:55:10.2020245-03:00","EndTime":"2023-05-29T18:55:10.2344638-03:00","Properties":[{"Key":{"Id":"ExecutionId","Label":"ExecutionId","Category":"","Description":"","Attributes":1,"ValueType":"System.Guid"},"Value":"00000000-0000-0000-0000-000000000000"},{"Key":{"Id":"ParentExecId","Label":"ParentExecId","Category":"","Description":"","Attributes":1,"ValueType":"System.Guid"},"Value":"00000000-0000-0000-0000-000000000000"},{"Key":{"Id":"InnerResultsCount","Label":"InnerResultsCount","Category":"","Description":"","Attributes":1,"ValueType":"System.Int32"},"Value":0}]}],"TestRunStatistics":{"ExecutedTests":1,"Stats":{"Passed":1}},"ActiveTests":[]},"RunAttachments":[],"ExecutorUris":["executor://mstestadapter/v2"]}}
+TpTrace Verbose: 0 : 22780, 4, 2023/05/29, 18:55:10.283, 5807851372116, testhost.dll, BaseRunTests.RunTests: Run is complete.
+TpTrace Verbose: 0 : 22780, 9, 2023/05/29, 18:55:10.283, 5807851374438, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:57398 localEndPoint: [::ffff:127.0.0.1]:57401
+TpTrace Information: 0 : 22780, 9, 2023/05/29, 18:55:10.283, 5807851376154, testhost.dll, TestRequestHandler.OnMessageReceived: received message: (TestSession.Terminate) -> null
+TpTrace Information: 0 : 22780, 9, 2023/05/29, 18:55:10.283, 5807851376533, testhost.dll, Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 22780, 9, 2023/05/29, 18:55:10.284, 5807851379046, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:057398
+TpTrace Information: 0 : 22780, 1, 2023/05/29, 18:55:10.284, 5807851379176, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:057398
+TpTrace Information: 0 : 22780, 9, 2023/05/29, 18:55:10.284, 5807851379892, testhost.dll, SocketClient: Stop: Cancellation requested. Stopping message loop.
+TpTrace Information: 0 : 22780, 1, 2023/05/29, 18:55:10.284, 5807851381035, testhost.dll, SocketClient: Stop: Cancellation requested. Stopping message loop.
+TpTrace Verbose: 0 : 22780, 1, 2023/05/29, 18:55:10.284, 5807851384298, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Verbose: 0 : 22780, 9, 2023/05/29, 18:55:10.284, 5807851384889, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 22780, 1, 2023/05/29, 18:55:10.284, 5807851386158, testhost.dll, Testhost process exiting.
+TpTrace Information: 0 : 22780, 9, 2023/05/29, 18:55:10.284, 5807851386316, testhost.dll, Closing the connection !
+TpTrace Information: 0 : 22780, 9, 2023/05/29, 18:55:10.285, 5807851389087, testhost.dll, SocketClient.PrivateStop: Stop communication from server endpoint: 127.0.0.1:057398, error:
